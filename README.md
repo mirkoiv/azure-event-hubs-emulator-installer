@@ -1,6 +1,16 @@
 
  # <img src="https://raw.githubusercontent.com/Azure/azure-event-hubs-emulator-installer/main/azure-eventhubs-emulator.svg" alt="Event-Hubs Logo" width="50">    Azure Event Hubs Emulator Installer
 
+
+>
+>**This is a fork of the official [Azure Event Hubs Emulator Installer Repository](https://github.com/Azure/azure-event-hubs-emulator-installer).**
+>
+> Currently, the emulator cannot be used directly with Spring Azure Cloud.
+> 
+>This repository includes samples and workarounds for integrating the emulator with Spring Azure Cloud versions 4.x and 5.x.
+> 
+> [Using Spring Cloud Azure with Event Hubs Emulator - Workaround](Sample-Code-Snippets/Java/spring-cloud-azure-samples/README.md)
+
 This repository contains the scripts required to install and run the  [Azure Event Hubs Emulator](https://learn.microsoft.com/en-us/azure/event-hubs/overview-emulator).
 
 - [Azure Event Hubs](#About-Azure-Event-Hubs)

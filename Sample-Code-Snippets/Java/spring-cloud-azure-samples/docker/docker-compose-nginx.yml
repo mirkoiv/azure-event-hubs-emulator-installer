@@ -1,0 +1,10 @@
+name: microsoft-azure-eventhubs-nginx-proxy
+services:
+  nginx:
+    container_name: "nginx"
+    image: "nginx:1.27.0-alpine"
+    ports:
+      - "5671:5671"
+    volumes:
+      - "./volumes/nginx/nginx.conf:/etc/nginx/nginx.conf:ro"
+      - "./volumes/ssl:/etc/nginx/ssl:ro"
